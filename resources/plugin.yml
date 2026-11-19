@@ -1,0 +1,17 @@
+name: StormTrials
+version: 3.3.0
+main: stormtrials.StormTrials
+api-version: '1.21.11'
+description: Disaster survival with an ocean tower and rotating destructible maps
+commands:
+  storm:
+    description: Join a round or view StormTrials information
+    usage: /storm <join|pause|afk|lobby|shop|perks|kit|accessories|spectate|stats|achievements|maps|disasters|map|start>
+    aliases: [disaster]
+permissions:
+  stormtrials.start:
+    description: Start the countdown immediately
+    default: op
+  stormtrials.build:
+    description: Edit the lobby and set its spawn
+    default: op

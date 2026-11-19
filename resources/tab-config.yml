@@ -1,0 +1,28 @@
+header-footer:
+  enabled: true
+  designs:
+    default:
+      header:
+        - "%animation:Archipelago%"
+        - "&7Выживание при стихийных бедствиях"
+      footer:
+        - "&7Игроков: &b%online% &8· &7Задержка: &b%ping% мс"
+        - "&7Карты и правила: &f/storm &8· &7Достижения: &f/storm achievements"
+
+tablist-name-formatting:
+  enabled: false
+scoreboard-teams:
+  enabled: false
+playerlist-objective:
+  enabled: true
+  value: "%ping%"
+  fancy-value: "&7%ping% мс"
+  title: "Ping"
+  render-type: INTEGER
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: false
+bossbar:
+  enabled: false
+scoreboard:
+  enabled: false
